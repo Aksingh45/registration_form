@@ -1,0 +1,134 @@
+/* Overall styles */
+body {
+    background-color: #164cff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(orange,white,green);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    margin: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2e8b57;
+  }
+  
+  /* Styles specific to the register form */
+  #register-form {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 5px;
+  }
+  
+  /* Styles specific to the delete form */
+  #delete-form {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 5px;
+  }
+  
+  /* Styles specific to the modify form */
+  #modify-form {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 5px;
+  }
+  #show {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 5px;
+  }
+  
+  /* Form section heading */
+  .form-section-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: #f44336;
+    margin-top: 5px;
+  }
+  
+  /* Success message */
+  .success-message {
+    color: #4caf50;
+    margin-top: 5px;
+  }
+  
+  .tabs{
+    margin: 10px;
+    max-height:50px;
+    height:50px;
+    display:flex;
+    justify-content: space-evenly;
+  }
+  .tab{
+    height: 50px;
+    width: 150px;
+    margin: 1px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50;
+  }
+
+  #link{
+    background: #48dbb7;
+    color: #000000;
+  }
+
+       
